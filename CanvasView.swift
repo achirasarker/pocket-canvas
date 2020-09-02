@@ -44,7 +44,7 @@ class CanvasView: UIView {
         //update startPoint to current touchPoint
         startPoint = touchPoint
         //call our draw func
-        drawShapeLayer()
+        drawShapeLayer() 
     }
     
     func drawShapeLayer() {
